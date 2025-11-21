@@ -25,7 +25,7 @@ class DocumentType(str, Enum):
 class PatientInfoSchema(BaseModel):
     """Schema for patient information"""
     patient_name: Optional[str] = Field(None, min_length=2, max_length=100)
-    date_of_birth: Optional[str] = Field(None, regex=r'^\d{4}-\d{2}-\d{2}$')
+    date_of_birth: Optional[str] = Field(None, pattern=r'^\d{4}-\d{2}-\d{2}$')
     mrn: Optional[str] = Field(None, min_length=1, max_length=50)
     phone: Optional[str] = None
     email: Optional[EmailStr] = None
@@ -44,7 +44,7 @@ class PatientInfoSchema(BaseModel):
 
 class ClinicalInfoSchema(BaseModel):
     """Schema for clinical information"""
-    date_of_service: Optional[str] = Field(None, regex=r'^\d{4}-\d{2}-\d{2}$')
+    date_of_service: Optional[str] = Field(None, pattern=r'^\d{4}-\d{2}-\d{2}$')
     diagnoses: Optional[List[str]] = []
     medications: Optional[List[str]] = []
     procedures: Optional[List[str]] = []
