@@ -1,0 +1,51 @@
+Patient Name: John Smith
+Medical Record Number: MRN123456
+Date of Birth: 05/15/1980
+Phone: (555) 123-4567
+Email: john.smith@email.com
+Address: 123 Main Street, Anytown, ST 12345
+
+Date of Service: 11/20/2023
+
+Chief Complaint: Annual physical examination
+
+Diagnoses:
+- Hypertension (I10)
+- Type 2 Diabetes Mellitus (E11.9)
+- Hyperlipidemia (E78.5)
+
+Medications:
+- Lisinopril 10mg daily
+- Metformin 500mg twice daily
+- Atorvastatin 20mg daily
+
+Procedures:
+- Complete physical examination
+- Blood pressure check
+- Blood glucose monitoring
+
+Insurance Information:
+Insurance Company: Blue Cross Blue Shield
+Policy Number: BC123456789
+Group Number: GRP001
+
+Vital Signs:
+Blood Pressure: 128/82 mmHg
+Heart Rate: 72 bpm
+Temperature: 98.6°F
+Weight: 185 lbs
+Height: 5'10"
+
+Laboratory Results:
+HbA1c: 6.8%
+Total Cholesterol: 195 mg/dL
+LDL: 118 mg/dL
+HDL: 52 mg/dL
+Triglycerides: 125 mg/dL
+
+Assessment and Plan:
+Patient's diabetes and hypertension are well-controlled on current medication regimen. Continue current medications. Follow up in 3 months for routine monitoring. Patient advised to maintain healthy diet and regular exercise.
+
+Physician: Dr. Sarah Johnson, MD
+Provider NPI: 1234567890
+Date: 11/20/2023
