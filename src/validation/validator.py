@@ -2,8 +2,8 @@
 Data Validation Module with HIPAA Compliance
 """
 import re
+from typing import Dict, List, Optional, Tuple
 import logging
-from typing import Dict, List, Optional
 from datetime import datetime
 from pydantic import BaseModel, Field, validator, EmailStr
 from enum import Enum
@@ -90,7 +90,7 @@ class HIPAAValidator:
         """Initialize HIPAA validator"""
         pass
     
-    def validate_schema(self, data: Dict) -> tuple[bool, List[str]]:
+    def validate_schema(self, data: Dict) -> Tuple[bool, List[str]]:
         """
         Validate data against medical document schema
         

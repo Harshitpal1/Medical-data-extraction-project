@@ -95,8 +95,8 @@ def test_utils():
     try:
         from src.utils.file_utils import allowed_file, get_file_extension
         
-        assert allowed_file("test.pdf") == True
-        assert allowed_file("test.txt") == False
+        assert allowed_file("test.pdf")
+        assert not allowed_file("test.txt")
         assert get_file_extension("test.pdf") == "pdf"
         
         print("✓ Utility functions working")
